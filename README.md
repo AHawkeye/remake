@@ -2,7 +2,7 @@
 
 # release
 ## 使用方法
-下载release中的remake.jar
+下载release中的remake-1.0-SNAPSHOT.jar
 
 `java -jar remake-1.0-SNAPSHOT.jar`
 # 数据来自
