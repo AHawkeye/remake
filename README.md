@@ -4,6 +4,6 @@
 ## 使用方法
 下载release中的remake.jar
 
-`java -jar remake.jar`
+`java -jar remake-1.0-SNAPSHOT.jar`
 # 数据来自
 - https://worldpopulationreview.com/country-rankings/birth-rate-by-country
