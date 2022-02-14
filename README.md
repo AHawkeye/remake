@@ -1,9 +1,5 @@
 # 人生重开器
 
-# release
-## 使用方法
-下载release中的remake-1.0-SNAPSHOT.jar
-
-`java -jar remake-1.0-SNAPSHOT.jar`
+运行Main中main方法 按提示操作即可
 # 数据来自
 - https://worldpopulationreview.com/country-rankings/birth-rate-by-country
