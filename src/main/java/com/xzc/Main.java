@@ -20,7 +20,7 @@ public class Main {
         getData();
         while (true) {
             String getStr;
-            System.out.print("Please input 1 to remake or 0 to exit: ");
+            System.out.print("Please input 1 to remake or 0 to exit and check the record: ");
             Scanner sc = new Scanner(System.in);
             getStr = sc.nextLine();
             if ("1".equals(getStr)) {
@@ -28,10 +28,10 @@ public class Main {
             } else if ("0".equals(getStr)) {
                 AsciiTable at = new AsciiTable();
                 at.addRule();
-                at.addRow("Country/Region","Count","Possibility");
+                at.addRow("Country/Region","Count","Frequency");
                 for (String s : countMap.keySet()) {
                     int c = countMap.get(s);
-                    double percent = (double) c / count;
+                    double percent = (double) c / count * 100;
                     DecimalFormat df = new DecimalFormat("0.000");
                     String per = df.format(BigDecimal.valueOf(percent));
                     at.addRule();
